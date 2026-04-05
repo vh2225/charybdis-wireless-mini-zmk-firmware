@@ -97,11 +97,6 @@
         m_dquot:    m_dquot    { compatible = "zmk,behavior-macro"; #binding-cells = <0>; bindings = <&kp DQT   &kp DQT   &kp LEFT>; };
     };
 
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball_split>;
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
